@@ -3,7 +3,19 @@
 one:
   email_address: one@example.com
   password_digest: <%= password_digest %>
+  group: one
 
 two:
   email_address: two@example.com
   password_digest: <%= password_digest %>
+  group: one
+
+three:
+  email_address: three@example.com
+  password_digest: <%= password_digest %>
+  group: one
+
+four:
+  email_address: four@example.com
+  password_digest: <%= password_digest %>
+  group: two
